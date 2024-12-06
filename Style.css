@@ -1,6 +1,4 @@
-/* ================================
-   Global Styles
-================================ */
+/* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -19,9 +17,7 @@ body {
     padding: 0 20px;
 }
 
-/* ================================
-   Header
-================================ */
+/* Header */
 #main-header {
     background: linear-gradient(to bottom right, #cc0000, #900);
     color: #fff;
@@ -48,9 +44,7 @@ body {
     border-radius: 5px;
 }
 
-/* ================================
-   Section "À propos"
-================================ */
+/* À propos */
 #about {
     padding: 60px 20px;
     background: #f8f8f8;
@@ -90,9 +84,7 @@ body {
     margin-bottom: 15px;
 }
 
-/* ================================
-   Section Tarifs
-================================ */
+/* Tarifs */
 #tarifs {
     padding: 60px 20px;
 }
@@ -122,9 +114,7 @@ body {
     margin-bottom: 10px;
 }
 
-/* ================================
-   Section Contact
-================================ */
+/* Contact */
 #contact {
     padding: 60px 20px;
     background: #f8f8f8;
@@ -151,9 +141,7 @@ body {
     margin-right: 10px;
 }
 
-/* ================================
-   Footer
-================================ */
+/* Footer */
 footer {
     text-align: center;
     background: #900;
