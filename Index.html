@@ -4,69 +4,83 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hopla Avac</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <!-- Header -->
-    <header>
-        <div class="logo">Hopla Avac</div>
-        <nav>
-            <ul>
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#presentation">Présentation</a></li>
-                <li><a href="#prix">Prix</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+    <header id="main-header">
+        <div class="container">
+            <h1>Hopla Avac</h1>
+            <p>Débarras et Nettoyage Professionnels</p>
+            <a href="#contact" class="btn">Contactez-nous</a>
+        </div>
     </header>
 
-    <!-- Accueil Section -->
-    <section id="accueil" class="section">
-        <div class="content">
-            <h1>Bienvenue chez Hopla Avac</h1>
-            <p>Débarras et nettoyage rapide et efficace en Alsace. Faites place nette dès aujourd'hui !</p>
+    <!-- À propos -->
+    <section id="about">
+        <div class="container">
+            <h2>À propos de nous</h2>
+            <p>Spécialiste local du débarras et du nettoyage, Hopla Avac offre des services sur mesure, respectueux de l’environnement et adaptés à vos besoins.</p>
+            <div class="about-grid">
+                <div class="about-item">
+                    <i class="fas fa-bullseye"></i>
+                    <h3>Notre Mission</h3>
+                    <p>Offrir des services professionnels pour vous simplifier la vie.</p>
+                </div>
+                <div class="about-item">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Nos Valeurs</h3>
+                    <p>Respect, fiabilité et satisfaction client sont au cœur de nos engagements.</p>
+                </div>
+                <div class="about-item">
+                    <i class="fas fa-users"></i>
+                    <h3>Notre Équipe</h3>
+                    <p>Une équipe expérimentée et à votre écoute.</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Présentation Section -->
-    <section id="presentation" class="section">
-        <div class="content">
-            <h2>Présentation</h2>
-            <p>Votre expert en débarras et nettoyage en Alsace.</p>
-            <ul>
-                <li><strong>Débarras complet :</strong> Maisons, appartements, caves, greniers, locaux professionnels.</li>
-                <li><strong>Nettoyage en profondeur :</strong> Tapis, canapés, terrasses, et bien plus encore.</li>
-                <li><strong>Solutions sur mesure :</strong> Adaptées à vos besoins, avec rapidité et discrétion.</li>
-            </ul>
-        </div>
-        <!-- Placeholder for Photos -->
-        <div class="photos">
-            <div class="photo">Photo 1</div>
-            <div class="photo">Photo 2</div>
-            <div class="photo">Photo 3</div>
-        </div>
-    </section>
-
-    <!-- Prix Section -->
-    <section id="prix" class="section">
-        <div class="content">
-            <h2>Prix</h2>
-            <p>Nos tarifs sont compétitifs et transparents. Contactez-nous pour un devis personnalisé !</p>
+    <!-- Tarifs -->
+    <section id="tarifs">
+        <div class="container">
+            <h2>Nos Tarifs</h2>
+            <div class="tarifs-grid">
+                <div class="tarif-item">
+                    <h3>Débarras</h3>
+                    <p>À partir de <strong>50€/m³</strong></p>
+                </div>
+                <div class="tarif-item">
+                    <h3>Nettoyage</h3>
+                    <p>Canapé, tapis, terrasse : <strong>30€/h</strong></p>
+                </div>
+                <div class="tarif-item">
+                    <h3>Autres Services</h3>
+                    <p>Contactez-nous pour un devis personnalisé.</p>
+                </div>
+            </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="section">
-        <div class="content">
+    <!-- Contact -->
+    <section id="contact">
+        <div class="container">
             <h2>Contactez-nous</h2>
-            <p>Pour toute demande, écrivez-nous à :</p>
-            <a href="mailto:pierre.techno68@gmail.com" class="contact-link">pierre.techno68@gmail.com</a>
+            <div class="contact-info">
+                <p><i class="fas fa-phone-alt"></i> Téléphone : 06 18 02 43 47</p>
+                <p><i class="fas fa-envelope"></i> Email : hopla.avac@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Adresse : 11 Pl. de l'Église, 68360 Soultz-Haut-Rhin</p>
+                <p><i class="fas fa-clock"></i> Horaires : Lundi au Vendredi, 9h à 18h</p>
+            </div>
         </div>
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>© 2024 Hopla Avac. Tous droits réservés.</p>
+        <div class="container">
+            <p>&copy; 2024 Hopla Avac. Tous droits réservés.</p>
+        </div>
     </footer>
 </body>
 </html>
