@@ -1,104 +1,163 @@
-/* Global Reset */
+/* ================================
+   Global Styles
+================================ */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
 }
 
-/* Body Styling */
 body {
-    font-family: Arial, sans-serif;
     line-height: 1.6;
     color: #333;
-    background-color: #f8f8f8;
 }
 
-/* Header Styling */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: #d32f2f;
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ================================
+   Header
+================================ */
+#main-header {
+    background: linear-gradient(to bottom right, #cc0000, #900);
     color: #fff;
-}
-
-header .logo {
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-header nav ul {
-    list-style: none;
-    display: flex;
-    gap: 1.5rem;
-}
-
-header nav a {
-    color: #fff;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-header nav a:hover {
-    text-decoration: underline;
-}
-
-/* Section Styling */
-.section {
-    padding: 4rem 2rem;
     text-align: center;
-    background-color: #fff;
-    margin: 1rem auto;
-    border-radius: 8px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 100px 20px;
 }
 
-.section:nth-child(even) {
-    background-color: #f8f8f8;
+#main-header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
 }
 
-.section h2 {
-    color: #d32f2f;
-    margin-bottom: 1rem;
+#main-header p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
 }
 
-/* Photos Section */
-.photos {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-top: 2rem;
-}
-
-.photo {
-    width: 150px;
-    height: 150px;
-    background-color: #e0e0e0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 8px;
-    color: #666;
-    font-size: 0.9rem;
-}
-
-/* Contact Link */
-.contact-link {
-    color: #d32f2f;
+#main-header .btn {
+    padding: 10px 20px;
+    background: #fff;
+    color: #cc0000;
     text-decoration: none;
     font-weight: bold;
+    border-radius: 5px;
 }
 
-.contact-link:hover {
-    text-decoration: underline;
+/* ================================
+   Section "À propos"
+================================ */
+#about {
+    padding: 60px 20px;
+    background: #f8f8f8;
 }
 
-/* Footer Styling */
+#about h2 {
+    text-align: center;
+    color: #cc0000;
+    margin-bottom: 30px;
+}
+
+#about p {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.about-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.about-item {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-item i {
+    font-size: 2rem;
+    color: #cc0000;
+    margin-bottom: 15px;
+}
+
+/* ================================
+   Section Tarifs
+================================ */
+#tarifs {
+    padding: 60px 20px;
+}
+
+#tarifs h2 {
+    text-align: center;
+    color: #cc0000;
+    margin-bottom: 30px;
+}
+
+.tarifs-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.tarif-item {
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.tarif-item h3 {
+    color: #cc0000;
+    margin-bottom: 10px;
+}
+
+/* ================================
+   Section Contact
+================================ */
+#contact {
+    padding: 60px 20px;
+    background: #f8f8f8;
+}
+
+#contact h2 {
+    text-align: center;
+    color: #cc0000;
+    margin-bottom: 30px;
+}
+
+.contact-info {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.contact-info p {
+    margin-bottom: 15px;
+}
+
+.contact-info i {
+    color: #cc0000;
+    margin-right: 10px;
+}
+
+/* ================================
+   Footer
+================================ */
 footer {
     text-align: center;
-    padding: 1rem;
-    background-color: #d32f2f;
+    background: #900;
     color: #fff;
-    margin-top: 1rem;
+    padding: 20px 0;
+    font-size: 0.9rem;
 }
